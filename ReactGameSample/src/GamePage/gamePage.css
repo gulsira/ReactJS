@@ -1,0 +1,65 @@
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    margin:auto;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.background {
+    background: #4a7d70;
+    background-image: linear-gradient(90deg, #440154, #482475, #414487, #355f8d, #2a788e, #21908d, #22a884, #42be71, #7ad151, #bddf26, #bddf26);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: teal;
+}
+
+
+.flatlist {
+    height: 200px;
+    width:80% ;
+    overflow-y: scroll;
+    color: teal;
+    overflow: auto;
+    overflow-x: hidden;
+    text-align: center;
+    list-style-type: none;
+    border: #4CAF50 5px solid ;
+    font-size: 18px;
+}
+
+
+.border {
+    display: flex;
+	justify-content: space-around;
+	align-content: center;
+    align-items: center;
+    width: 65%;
+    height: 90%;
+	flex-wrap: wrap;
+    background-image: linear-gradient(#111, #050505);
+    flex-shrink: 0;
+	margin: 20px;
+
+	border: calc(8px + 0.2vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 30%;
+	background-image: linear-gradient(#f9f047, #0fd850);
+}
